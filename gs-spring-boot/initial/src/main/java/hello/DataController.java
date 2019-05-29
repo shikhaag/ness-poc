@@ -16,4 +16,8 @@ public class DataController {
         return "Inside DataController of postData";
     }
     
+	 @RequestMapping("/fetchAllData")
+    public String postData() {
+        return "Inside DataController of fetchAllData";
+    }
 }

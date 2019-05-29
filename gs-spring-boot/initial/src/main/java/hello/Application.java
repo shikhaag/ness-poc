@@ -10,6 +10,8 @@ import org.springframework.boot.CommandLineRunner;
 import hello.storage.StorageProperties;
 import hello.storage.StorageService;
 
+/** The class is use to start spring boot.
+*/
 @SpringBootApplication
 @EnableConfigurationProperties(StorageProperties.class)
 public class Application {

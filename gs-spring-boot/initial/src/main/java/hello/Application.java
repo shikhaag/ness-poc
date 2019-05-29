@@ -6,9 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.boot.CommandLineRunner;
-import hello.storage.StorageProperties;
-import hello.storage.StorageService;
+
+
 
 /** The class is use to start spring boot.
 */
@@ -29,12 +28,5 @@ public class Application {
     }
 	
 	
-	@Bean
-    CommandLineRunner init(StorageService storageService) {
-        return (args) -> {
-            storageService.deleteAll();
-            storageService.init();
-        };
-    }
 
 }

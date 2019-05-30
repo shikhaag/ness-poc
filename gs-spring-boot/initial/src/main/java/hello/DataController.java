@@ -5,6 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 public class DataController {
+
+    @Bean
+    Service
     
     @RequestMapping("/getData")
     public String getData() {
@@ -13,11 +16,5 @@ public class DataController {
 	
 	 @RequestMapping("/postData")
     public String postData() {
-        return "Inside DataController of postData";
-    }
-    
-	 @RequestMapping("/fetchAllData")
-    public String fetchAllData() {
-        return "Inside DataController of fetchAllData";
-    }
-}
+        return "Inside DataController of pos:wq
+

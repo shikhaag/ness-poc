@@ -4,16 +4,17 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
-public class DataController {
+public class DownloadController {
     
-    @RequestMapping("/getData")
-    public String getData() {
-        return "Inside DataController of getData";
+    @RequestMapping("/getDownloadData")
+    public String getDownloadData() {
+        return "Inside DataController of getDownloadData";
     }
 	
-	 @RequestMapping("/postData")
-    public String postData() {
-        return "Inside DataController of postData";
+	 @RequestMapping("/postDownloadData")
+    public String postDownloadData() {
+        return "Inside DataController of postDownloadData";
     }
     
 }
+

@@ -8,4 +8,7 @@ public class DataService {
     private int x=0;
     int data=10000; // Ashish Added this line for conflict checking
 
+    public int getX() {
+        return x;
+    }
 }

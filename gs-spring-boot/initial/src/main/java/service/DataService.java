@@ -11,4 +11,10 @@ public class DataService {
     public int getX() {
         return x;
     }
+
+    public String getDataService()
+    {
+
+        return "AshishSahu DataService";
+    }
 }
